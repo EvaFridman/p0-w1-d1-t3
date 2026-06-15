@@ -1,0 +1,47 @@
+Блочный элемент - обозначается /b
+Строчный элемент - обозначается /s
+
+DOCTYPE: html
+html
+├── head
+│   ├── meta
+│   ├── meta
+│   └── title
+│
+└── body /b
+    ├── header /b
+    │   └── nav /b
+    │       └── ul /b
+    │           ├── li /b
+    │           │   └── a /s
+    │           ├── li /b
+    │           │   └── a /s
+    │           └── li /b
+    │               └── a /s
+    ├── main /b
+    │   ├── article /b
+    │   │   ├── h1 /b
+    │   │   ├── section /b
+    │   │   │   ├── h2 /b
+    │   │   │   └── p /b
+    │   │   │       └── em /s
+    │   │   └── section /b
+    │   │       ├── h2 /b
+    │   │       ├── p /b
+    │   │       │   └── a /s
+    │   │       ├── h3 /b
+    │   │       └── p /b
+    │   │           └── strong /s
+    │   └── aside /b
+    │       ├── p /b
+    │       └── ul /b
+    │           ├── li /b
+    │           │   └── ul /b
+    │           │       ├── li /b
+    │           │       └── li /b
+    │           └── li /b
+    └── footer /b
+        ├── figure /b
+        │   ├── img /s
+        │   └── figcaption /b
+        └── time /s
